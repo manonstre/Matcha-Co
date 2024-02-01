@@ -102,7 +102,7 @@ h4 {
 
 /*Banner*/
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/Users/manon/Desktop/HTML:CSS/MATCHA/image/Desktop/background-picture.png);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(image/background-picture.png);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -207,6 +207,7 @@ section#facts .container H4 {
 
 /*Bloc Durabilité*/
 section#durabilite {
+  display: flex;
   border-radius: 16px;
   background: #6F805E;
   width: 1110px;
